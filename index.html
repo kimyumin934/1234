@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임 시작 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>게임을 시작하시겠습니까?</h1>
+    <button onclick="startGame()">시작하기</button>
+
+    <script>
+        function startGame() {
+            window.location.href = "game.html"; // 게임 페이지로 이동
+        }
+    </script>
+</body>
+</html>
